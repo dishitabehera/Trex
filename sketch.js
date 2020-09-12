@@ -83,7 +83,7 @@ function draw() {
   text("highScore; " + max(highScore), 500, 70);
   console.log("this is ",gameState)
   
-  
+  trex.tint = "red";
   if(gameState === PLAY){
     gameOver.visible = false
     restart.visible = false
